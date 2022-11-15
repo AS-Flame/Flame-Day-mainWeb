@@ -1,0 +1,177 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    background: url('../images/Web\(Wallpaper\).png');
+}
+html{
+    scroll-behavior: smooth;
+}
+/*NavBar*/
+#Navbar{
+    display: flex;
+    align-items: center;
+    position: sticky;
+}
+#NavBar::before{
+    content: '';
+    position: absolute;
+    background-color: black;
+    height: 100%;
+    width: 100%;
+    z-index: -1;
+    opacity: 0.4;
+}
+/*NavBar: logo and image*/
+
+#logo{
+    margin: 0px 5px;
+}
+#logo img{
+    height: 85px;
+    margin: 34px 45px;
+    cursor: pointer;
+}
+/*NavBar: list styling*/
+#Navbar ul{
+    display: flex;
+    margin-left: 200px;
+}
+#Navbar ul li{
+    list-style: none;
+    font-size: 1.5rem;
+    font-family: 'Delius', cursive;
+}
+#Navbar ul li a{
+    display: block;
+    padding: 6px 35px;
+    border-radius: 20px;
+    color: white;
+    text-decoration: none;
+}
+#Navbar ul li a:hover{
+    color: rgb(255, 134, 134);
+    background-color: aliceblue;
+    
+}
+/*Home Section*/
+#home{
+    display: flex;
+    flex-direction: column;
+    height: 300px;
+    padding: 50px 200px;
+    justify-content: center;
+    align-items: center;
+    min-height: calc(100vh - 157px - 44px);
+}
+#home h1{
+    color: white;
+    text-align: center;
+}
+#home p{
+    color: aliceblue;
+    text-align: center;
+    font-size: 1.5rem;
+    font-family: 'Capriola', sans-serif;
+}
+
+.heading{
+    font-size: 3.8rem;
+    padding: 12px;
+    text-align: center;
+    font-family: 'Capriola', sans-serif;
+    color: aliceblue;
+}
+.btn{
+    padding:  6px 19px;
+    border: 2px solid rgb(255, 255, 255);
+    background-color: rgb(54, 132, 177);
+    color: rgb(255, 255, 255);
+    font-size: 1.5rem;
+    margin: 18px;
+    border-radius: 10px;
+    cursor: pointer;
+}
+footer{
+    background: rgb(32, 32, 32);
+    color: white;
+    padding: 13px;
+    text-align: center;
+    margin-top: 250px;
+}
+#Aboutme{
+    padding: 200px 100px;
+}
+#Aboutme p{
+    color: aliceblue;
+    text-align: center;
+    font-size: 1.8rem;
+    font-family: 'Capriola', sans-serif;
+}
+.heading1{
+    font-size: 3.7rem;
+    margin-top: 50px;
+    text-align: center;
+    font-family: 'Capriola', sans-serif;
+    color: aliceblue;
+}
+#logo1{
+    margin: 34px 45px;
+    cursor: pointer;
+    margin: 300px;
+    width: 100%;
+}
+#logo1 img{
+    border-radius: 500px;
+    height: 300px;
+    margin-top: -200px;
+    margin-left: 200px;
+}
+.heading2{
+    font-size: 2.5rem;
+    margin-top: -350px;
+    text-align: center;
+    font-family: 'Capriola', sans-serif;
+    color: aliceblue;
+}
+#Aboutme1{
+    padding: 40px 100px;
+}
+#Aboutme1 p{
+    color: aliceblue;
+    text-align: center;
+    font-size: 1.8rem;
+    font-family: 'Capriola', sans-serif;
+}
+/*Social media icons*/
+.fa-brands fa-youtube{
+    color: rgb(255 0 0);
+}
+.fa-brands fa-intagram{
+    color: rgb(169, 129, 193);
+}
+.icon a i{
+    font-size: 3rem;
+}
+.icon{
+    display: flex;
+    justify-content: center;
+    color: aqua;
+}
+a{
+    padding: 60px;
+}
+.icon a i::hover{
+    color: rgb(255, 255, 255);
+    font-size: 10rem;
+}
+#Aboutme10{
+    padding: 40px 100px;
+}
+#Aboutme10 p{
+    color: aliceblue;
+    text-align: center;
+    font-size: 1.8rem;
+    font-family: 'Capriola', sans-serif;
+}
